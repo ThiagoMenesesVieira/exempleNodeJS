@@ -2,18 +2,18 @@
   <strong>🚀 Basic exemple backend with NodeJs 🚀 </strong>
 </h1>
 
-## 💻 Projeto
+## 💻 Project
 
-Neste projeto foi criado um exemplo abordando conceitos de nodeJS, API REST, métodos HTTP e middlewares.
+This project an example was created addressing concepts of nodeJS, API REST, métodos HTTP e middlewares.
 
-## 🚀 Tecnologias
+## 🚀 Technology
 
-Esse projeto foi desenvolvido abordando os seguintes temas:
+This project was developed with:
 
 - NODE
-- Conceitos API REST
-- Métodos HTTP
-- Middware
+- REST API
+- HTTP methods
+- Middleware
 
 
 ##  💻 Routes
@@ -61,28 +61,28 @@ http://localhost:3333/projects/72bc5a5d-3bab-4e0f-b34b-5df7fed7df67
 #Return status 204 No Content
 #Preview: No body returned for response
 ```
-## ℹ Como usar
+## ℹ How to use
 
-Para clonar e executar este API, você precisará do [Git](https://git-scm.com) e [Node.js](https://nodejs.org/pt-br/) instalado em seu computador.
+To clone and run this API, you will need [Git] (https://git-scm.com) and [Node.js] (https://nodejs.org/pt-br/) installed on your computer.
 
-Em sua linha de comando:
+On your command line:
 
 ```powershell
-# Clone este repósitorio
+# Clone this repository
 git clone https://github.com/ThiagoMenesesVieira/exempleNodeJs
 
-# Vá para o repósitorio
+# Go to the repository
 cd .\exempleNodeJs
 
-# Instale as dependências
+# Install the dependencies
 npm install
 
 # Start the Backend 
 npm run dev
 
-# Utilize as os metodos listados acima para fazer a resquisições HTTP
+# Use the sample HTTP method routes
 
 ```
 
 ---
-Make with ♥ by Thiago Meneses <img src="https://img.icons8.com/officexs/16/000000/linkedin.png"/> [Linkedin](https://www.linkedin.com/in/thiago-meneses-vieira-7aa8922a/).
+Make with ♥ by Thiago Meneses Vieira <img src="https://img.icons8.com/officexs/16/000000/linkedin.png"/> [Linkedin](https://www.linkedin.com/in/thiago-meneses-vieira-7aa8922a/).
