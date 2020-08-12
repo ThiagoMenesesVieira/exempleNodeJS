@@ -54,7 +54,7 @@ http://localhost:3333/projects/72bc5a5d-3bab-4e0f-b34b-5df7fed7df67
   }
 ```
 
-DELETE
+- DELETE
 ```powershell
 http://localhost:3333/projects/72bc5a5d-3bab-4e0f-b34b-5df7fed7df67
 
