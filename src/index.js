@@ -11,7 +11,6 @@ app.use(cors(
 ));
 app.use(express.json())
 
-
 const projects = [];
 
 // Middleware para verificar tempo de cada requisição
