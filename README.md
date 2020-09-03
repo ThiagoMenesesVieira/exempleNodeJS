@@ -1,5 +1,5 @@
 <h1 align="center">
-  <strong>🚀 Basic exemple backend with NodeJs (BackEnd - Projects - API 🚀 </strong>
+  <strong>🚀 Basic exemple backend with NodeJs (BackEnd - Projects - API) 🚀 </strong>
 </h1>
 
 ## 💻 Project
