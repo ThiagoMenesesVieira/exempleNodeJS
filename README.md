@@ -1,10 +1,12 @@
 <h1 align="center">
-  <strong>🚀 Basic exemple backend with NodeJs 🚀 </strong>
+  <strong>🚀 Basic exemple backend with NodeJs (BackEnd - Projects - API 🚀 </strong>
 </h1>
 
 ## 💻 Project
 
 This project an example was created addressing concepts of nodeJS, API REST, métodos HTTP e middlewares.
+
+This API is used as a backend in the [reactjs-frontend-projects] (https://github.com/ThiagoMenesesVieira/reactjs-frontend-projects) example.
 
 ## 🚀 Technology
 
@@ -69,7 +71,7 @@ On your command line:
 
 ```powershell
 # Clone this repository
-git clone https://github.com/ThiagoMenesesVieira/exempleNodeJs
+git clone https://github.com/ThiagoMenesesVieira/nodejs-backend-api-projects
 
 # Go to the repository
 cd .\exempleNodeJs
