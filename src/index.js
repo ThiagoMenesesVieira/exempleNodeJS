@@ -1,15 +1,21 @@
 const express = require('express');
+const cors = require('cors');
 const { uuid, isUuid } = require('uuidv4');
 
 const app = express();
 
+app.use(cors(
+   // {
+   // origin: 'http://localhost:3000'    
+   // }
+));
 app.use(express.json())
 
 
 const projects = [];
 
 // Middleware para verificar tempo de cada requisição
-function logRequests(requests, response, next) {
+function logRequests(request, response, next) {
     const {method, url } = request;
 
     const logLabel = `[${method.toUpperCase()}] ${url}`;
@@ -52,7 +58,7 @@ app.post('/projects', (request, response) => {
    const { title, owner } = request.body;
 
     const project = { id: uuid(), title, owner  };
-
+console.log('project', project)
     projects.push(project);
 
     return response.json(project);
@@ -93,5 +99,5 @@ app.delete('/projects/:id', (request, response) => {
 });
 
 app.listen(3333, () => {
-    console.log("Back-end started!")
+    console.log("Back-end started! port 3333")
 });
